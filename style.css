@@ -1,0 +1,56 @@
+.navbar>nav{
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  margin-left: 3rem;
+  font-weight: 450;
+}
+ul {
+  display: flex;
+  margin-right: 2rem;
+}
+li{
+  list-style: none;
+  margin-left: 1rem;
+  padding-top: 8px;
+  font-size: 1.3rem;
+}
+a{
+  text-decoration: none;
+}
+a:link, a:visited{
+  color: black;
+}
+a:hover{
+  color:darksalmon;
+}
+img[src="images/lap.jpeg"] {
+  height: 100vh;
+  width: 95vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+.skills{
+  display: flex;
+  /* justify-content: space-around; */
+}
+.skills>div{
+  margin-top: 2rem;
+  text-align: center;
+  width: 30vw;
+  margin-left: 1.8vw;
+  
+}
+.skills>div>p{
+  padding: 1rem;
+}
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+.footer>p{
+  font-size: 25px;
+}
+
